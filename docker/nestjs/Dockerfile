@@ -1,0 +1,7 @@
+FROM node:15.9-alpine
+
+ENV INSTALL_DIR /opt/api
+RUN mkdir -p ${INSTALL_DIR}
+
+WORKDIR ${INSTALL_DIR}
+ENTRYPOINT sleep 1000d
