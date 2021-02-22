@@ -1,0 +1,9 @@
+{
+    "type": "postgres",
+    "host": "db_postgres",
+    "port": 5432,
+    "username": "nestjs",
+    "password": "change_me",
+    "database": "queue_nestjs",
+    "entities": ["dist/**/*.entity{.ts,.js}"]
+  }
